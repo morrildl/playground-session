@@ -21,7 +21,7 @@ type ConfigType struct {
 }
 
 var Config ConfigType = ConfigType{
-	"CorpSessionID",
+	"PlaygroundSessionID",
 	OAuthConfig{
 		"accounts.example.com",
 		"client_id_aka_audience",
